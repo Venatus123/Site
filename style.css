@@ -193,4 +193,18 @@ body {
 	display: flex;
 	color: white;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+::-webkit-scrollbar-track {
+  background: #ddd; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: none; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
